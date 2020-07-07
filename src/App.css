@@ -38,7 +38,34 @@
 }
 
 .card-content.white-text{
+  background-color: red;
   text-align: center;
   font-size: large;
 }
 
+.waves-effect.waves-light.btn-large{
+  background-color: red;
+}
+
+.material-icons{
+  background-color: red;
+}
+
+.waves-effect.waves-light.btn.modal-trigger{
+  margin-left: 200px;
+  background-color: red;
+}
+
+h4{
+  color: black;
+  text-align: center;
+}
+
+p{
+  color: black;
+  text-align: center;
+}
+
+.modal-content{
+  text-align: center;
+}

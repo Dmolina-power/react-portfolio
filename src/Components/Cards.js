@@ -8,7 +8,7 @@ function Cards() {
                 <div className="card-image">
                   <img src="/images/Screen Shot 2020-06-30 at 10.30.52 PM.png"alt="project2"/>
                   <span className="card-header">Project/collaboration - Send Moods</span>
-                  <a className="btn-floating halfway-fab waves-effect waves-light teal" href="https://project-2-mood-music.herokuapp.com/"><i className="material-icons">add</i></a>
+                  <a className="btn-floating halfway-fab waves-effect waves-light" href="https://project-2-mood-music.herokuapp.com/"><i className="material-icons">explore</i></a>
                  </div>
                  <div className="card-content">
                    <p>A group project that was music inspired and built with: HTML
@@ -25,10 +25,10 @@ function Cards() {
                   <img src="/images/Screen Shot 2020-06-30 at 10.54.13 PM.png" alt="burgertime" />
                   <span className="card-header">Burger Time!</span>
                   <a
-                    className="btn-floating halfway-fab waves-effect waves-light teal"
+                    className="btn-floating halfway-fab waves-effect waves-light"
                     href="https://secure-stream-71691.herokuapp.com/"
                   >
-                    <i className="material-icons">add</i>
+                    <i className="material-icons">explore</i>
                   </a>
                 </div>
                 <div className="card-content">
@@ -51,10 +51,10 @@ function Cards() {
                   <img src="/images/Screen Shot 2020-06-30 at 11.12.53 PM.png" alt="fitness"/>
                   <span className="card-header">Fitness Tracker</span>
                   <a
-                    className="btn-floating halfway-fab waves-effect waves-light teal"
+                    className="btn-floating halfway-fab waves-effect waves-light"
                     href="https://limitless-sea-51961.herokuapp.com/"
                   >
-                    <i className="material-icons">add</i>
+                    <i className="material-icons">explore</i>
                   </a>
                 </div>
                 <div className="card-content">
@@ -78,10 +78,10 @@ function Cards() {
                     Project/collaboration - Whats PoppIn
                   </span>
                   <a
-                    className="btn-floating halfway-fab waves-effect waves-light teal"
+                    className="btn-floating halfway-fab waves-effect waves-light"
                     href="https://cheesekate.github.io/Project-1/"
                   >
-                    <i className="material-icons">add</i>
+                    <i className="material-icons">explore</i>
                   </a>
                 </div>
                 <div className="card-content">
