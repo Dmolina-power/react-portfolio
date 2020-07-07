@@ -3,7 +3,7 @@ import React from 'react'
 function Cards() {
     return (
         <div>
-            <div className="col s6">
+            <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
                   <img src="/images/Screen Shot 2020-06-30 at 10.30.52 PM.png"alt="project2"/>
@@ -19,7 +19,7 @@ function Cards() {
                   </div>
               </div>
             </div>
-            <div className="col s6">
+            <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
                   <img src="/images/Screen Shot 2020-06-30 at 10.54.13 PM.png" alt="burgertime" />
@@ -45,7 +45,7 @@ function Cards() {
                 </div>
               </div>
             </div>
-            <div className="col s6">
+            <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
                   <img src="/images/Screen Shot 2020-06-30 at 11.12.53 PM.png" alt="fitness"/>
@@ -70,7 +70,7 @@ function Cards() {
                 </div>
               </div>
             </div>
-            <div className="col s6">
+            <div className="col s12 m6">
               <div className="card">
                 <div className="card-image">
                   <img src="/images/Screen Shot 2020-06-30 at 11.41.19 PM.png" alt="project1" />
