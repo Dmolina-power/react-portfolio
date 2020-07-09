@@ -1,5 +1,5 @@
 import React from "react";
-
+import Form from "../Form/index"
 
 function Footer() {
   return (
@@ -7,7 +7,7 @@ function Footer() {
       <footer class="page-footer">
         <div class="container">
           <div class="row">
-            <div className="col s12 m8">
+            <div className="col s12 m6">
               <h4>Got a project idea?</h4>
               <p>
                 I help brands turn big ideas into beautiful digital products and
@@ -42,8 +42,8 @@ function Footer() {
                 </div>
               </div>
             </div>
+          <Form />
           </div>
-          <form />
         </div>
         <div class="footer-copyright black-text">
           <div class="container">

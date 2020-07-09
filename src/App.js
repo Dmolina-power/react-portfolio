@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import M from "materialize-css";
 import Footer from "./Components/Footer/index";
 import Card from "./Components/Card/index";
+import Form from "./Components/Form/index"
 import projects from "./projects.json";
 import "./App.css";
 
@@ -96,7 +97,9 @@ export class Parallax extends Component {
             />
           </div>
         </div>
-        <Footer />
+        <Footer/> 
+        
+        
       </div>
     );
   }
