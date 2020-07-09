@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import M from "materialize-css";
-import Footer from "./Components/Footer";
-import Cards from "./Components/Cards";
+import Footer from "./Components/Footer/index";
+import Card from "./Components/Card/index";
+import projects from "./projects.json";
 import "./App.css";
 
 export class Parallax extends Component {
+  state = {
+    projects
+  };
   componentDidMount() {
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".parallax");
@@ -17,7 +21,10 @@ export class Parallax extends Component {
       <div>
         <div className="parallax-container">
           <div className="parallax">
-            <img src="https://images.unsplash.com/photo-1526738549149-8e07eca6c147?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80" alt="parallax-1"/>
+            <img
+              src="https://images.unsplash.com/photo-1526738549149-8e07eca6c147?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80"
+              alt="parallax-1"
+            />
           </div>
         </div>
         <div className="section white">
@@ -29,10 +36,10 @@ export class Parallax extends Component {
               <img
                 src="https://i.postimg.cc/MKW6gC5z/53-A1247-A-3555-49-BA-981-C-15306-A54913-B.jpg"
                 alt=""
-                className="circle responsive-img"
+                className="circle responsive-img z-depth-5"
               />
               <a
-                className="waves-effect waves-light btn-large"
+                className="waves-effect waves-light btn  z-depth-5"
                 href="https://docs.google.com/document/d/1DldWUaF821mOasAmYpFahvvmb6H1u6i5GdBH1nFRROs/"
               >
                 View My Resume
@@ -46,8 +53,7 @@ export class Parallax extends Component {
                 fulfill my passion of creating a more beautiful world via design
                 I have completed the Full-Stack development course via the
                 University of Arizona. Currently, an expert in creating dynamic
-                user experiences via front end languages like, HTML, CSS, and
-                JavaScript.
+                user experiences via React.
               </p>
             </div>
           </div>
@@ -55,7 +61,10 @@ export class Parallax extends Component {
 
         <div className="parallax-container">
           <div className="parallax">
-            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="parallax-2" />
+            <img
+              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt="parallax-2"
+            />
           </div>
         </div>
         <div className="section white">
@@ -64,14 +73,27 @@ export class Parallax extends Component {
             <p className="portfolio-tag">
               Come view my personal work and project collaborations!
             </p>
+            {this.state.projects.map(project => (
+              <Card
+                id={project.id}
+                key={project.id}
+                name={project.name}
+                image={project.image}
+                content={project.content}
+                link={project.link}
+                gitHubLink={project.gitHubLink}
+              />
 
-            <Cards />
+            ))}
           </div>
         </div>
 
         <div className="parallax-container">
           <div className="parallax">
-            <img src="https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="parallax-3" />
+            <img
+              src="https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt="parallax-3"
+            />
           </div>
         </div>
         <Footer />
