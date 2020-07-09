@@ -4,9 +4,9 @@ import Form from "../Form/index"
 function Footer() {
   return (
     <div>
-      <footer class="page-footer">
-        <div class="container">
-          <div class="row">
+      <footer className="page-footer">
+        <div className="container">
+          <div className="row">
             <div className="col s12 m6">
               <h4>Got a project idea?</h4>
               <p>
@@ -45,8 +45,8 @@ function Footer() {
           <Form />
           </div>
         </div>
-        <div class="footer-copyright black-text">
-          <div class="container">
+        <div className="footer-copyright black-text">
+          <div className="container">
             <h6 className="footerText">© 2020 Copyright Daniel Molina-Power</h6>
           </div>
         </div>

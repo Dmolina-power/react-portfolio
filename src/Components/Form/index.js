@@ -3,51 +3,51 @@ import React from "react";
 function Form() {
   return (
     <div>
-      <div class="row">
+      <div className="row">
         <h4>Contact Me</h4>
-        <div class="col s12 m6">
-          <div class="card-panel">
-            <div class="row">
-              <form class="col s12">
-                <div class="row">
-                  <div class="input-field col s6">
+        <div className="col s12 m6">
+          <div className="card-panel">
+            <div className="row">
+              <form className="col s12" method="post" action="contact.php">
+                <div className="row">
+                  <div className="input-field col s6">
                     <input
                       placeholder="Placeholder"
                       id="first_name"
                       type="text"
-                      class="validate"
+                      className="validate"
                     />
-                    <label for="first_name">First Name</label>
+                    <label htmlFor="first_name">First Name</label>
                   </div>
-                  <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate" />
-                    <label for="last_name">Last Name</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="email" type="email" class="validate" />
-                    <label for="email">Email</label>
+                  <div className="input-field col s6">
+                    <input id="last_name" type="text" className="validate" />
+                    <label htmlFor="last_name">Last Name</label>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="input-field col s12 md6">
-                    <i class="material-icons prefix">mode_edit</i>
+                <div className="row">
+                  <div className="input-field col s12">
+                    <input id="email" type="email" className="validate" />
+                    <label htmlFor="email">Email</label>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="input-field col s12 md6">
+                    <i className="material-icons prefix">mode_edit</i>
                     <textarea
                       id="icon_prefix2"
-                      class="materialize-textarea"
+                      className="materialize-textarea"
                     ></textarea>
-                    <label for="icon_prefix2">Message</label>
+                    <label htmlFor="icon_prefix2">Message</label>
                   </div>
                 </div>
-                <div class="row">
+                <div className="row">
                   <button
-                    class="btn waves-effect waves-light"
+                    className="btn waves-effect waves-light"
                     type="submit"
                     name="action"
                   >
                     Submit
-                    <i class="material-icons right">send</i>
+                    <i className="material-icons right">send</i>
                   </button>
                 </div>
               </form>
