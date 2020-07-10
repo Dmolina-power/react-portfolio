@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Send Moods",
-        "image": "src/images/Screen Shot 2020-06-30 at 10.30.52 PM.png",
+        "image": "./images/Screen Shot 2020-06-30 at 10.30.52 PM.png",
         "content": "A group project that was built with HTML Bootstrap, CSS, JavaScript, Handlebars, Sequelize, JQuery,Express, Passport, MySql2. Created with Three other WebDev's. Click tab to view the site or to view Repo click below.",
         "gitHubLink": "https://github.com/Dmolina-power/Project2",
         "link": "https://project-2-mood-music.herokuapp.com/"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Burger Time!",
-        "image": "src/images/Screen Shot 2020-06-30 at 10.54.13 PM.png",
+        "image": "./images/Screen Shot 2020-06-30 at 10.54.13 PM.png",
         "content": "A simple burger logger with MySQL, Node, Express,Handlebars and a homemade ORM. user can add burgers of their own, devour burgers. Burger Time! highlights Database usuage and interactions. Click tab to view the site or to view Repo click below.",
         "gitHubLink": "https://github.com/Dmolina-power/burger-time",
         "link": "https://secure-stream-71691.herokuapp.com/" 
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Whats PoppIn",
-        "image": "src/images/Screen Shot 2020-06-30 at 11.41.19 PM.png",
+        "image": "./images/Screen Shot 2020-06-30 at 11.41.19 PM.png",
         "content": "A group project that was created with CSS,HTML,JavaScript.Running web API's.With the Corona virus, we are trying to figure out what is PoppIn in your area and the weather. Click tab to view the site or to view Repo click below.",
         "gitHubLink": "https://github.com/Cheesekate/Project-1",
         "link": "https://cheesekate.github.io/Project-1/"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Fitness Tracker",
-        "image": "src/images/Screen Shot 2020-06-30 at 11.12.53 PM.png",
+        "image": "./images/Screen Shot 2020-06-30 at 11.12.53 PM.png",
         "content": "View, create, and track daily workouts. A user should be able to log multiple exercises in a workout on a given day. Built with MongoDB, Node.js, HTML5, CSS.Click tab to view the site or to view Repo click below.",
         "gitHubLink": "https://github.com/Dmolina-power/fitness-Tracker",
         "link": "https://limitless-sea-51961.herokuapp.com/"
