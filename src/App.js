@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import M from "materialize-css";
+// import axios from "axios";
 import Footer from "./Components/Footer/index";
 import Card from "./Components/Card/index";
 import projects from "./projects.json";
@@ -15,9 +16,14 @@ export class Parallax extends Component {
       var elems = document.querySelectorAll(".parallax");
       M.Parallax.init(elems);
     });
+
+    
   }
 
   render() {
+    // <iframe src="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf" width="100%" height="500px">
+    // </iframe>
+    // https://www.npmjs.com/package/react-iframe
     return (
       <div>
         <div className="parallax-container">

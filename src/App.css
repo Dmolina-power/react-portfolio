@@ -37,13 +37,22 @@
   margin-bottom: 30px;
 }
 
+.card-content {
+  min-height: 250px;
+}
+/*add media query for different card content heights*/
 .card-content.white-text{
   background-color: white;
   text-align: center;
   font-size: large;
-  
+  position: relative;
 }
 
+.githubIcon {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
 .waves-effect.waves-light.btn{
   background-color: red;
   position: bottom;

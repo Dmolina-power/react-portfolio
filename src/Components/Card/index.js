@@ -3,7 +3,7 @@ import React from "react";
 function Card(props) {
   return (
     <div>
-      <div className="col s12 m6">
+      <div className="col s12 m6 l6">
         <div className="card z-depth-4">
           <div className="card-image">
             <img src={props.image} alt={props.name} />
@@ -20,6 +20,7 @@ function Card(props) {
             <img
               src="https://img.icons8.com/fluent/48/000000/github.png"
               alt="github"
+              className="githubIcon"
             />
             <a href={props.gitHubLink}></a>
           </div>
