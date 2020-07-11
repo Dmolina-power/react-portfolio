@@ -17,15 +17,13 @@ function Footer() {
                 <div className="card-content black-text">
                   <span className="card-title center"> Let's Connect!</span>
                   <div className="col s12 m6">
-                    <h6>
-                      <i className="material-icons">phone</i>(480)800-7959
-                    </h6>
+                    
                     <h6>
                       <i className="material-icons">email</i>
-                      bigdpower@icloud.com
+                       <br></br>bigdpower@icloud.com 
                     </h6>
                     <h6>
-                      <i className="material-icons">map</i>San Tan Valley,
+                      <i className="material-icons">map</i><br></br>San Tan Valley,
                       Arizona
                     </h6>
                   </div>

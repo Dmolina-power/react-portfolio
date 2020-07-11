@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import M from "materialize-css";
-// import axios from "axios";
 import Footer from "./Components/Footer/index";
 import Card from "./Components/Card/index";
 import projects from "./projects.json";
@@ -9,21 +8,16 @@ import "./App.css";
 
 export class Parallax extends Component {
   state = {
-    projects
+    projects,
   };
   componentDidMount() {
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".parallax");
       M.Parallax.init(elems);
     });
-
-    
   }
 
   render() {
-    // <iframe src="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf" width="100%" height="500px">
-    // </iframe>
-    // https://www.npmjs.com/package/react-iframe
     return (
       <div>
         <div className="parallax-container">
@@ -80,7 +74,7 @@ export class Parallax extends Component {
             <p className="portfolio-tag">
               Come view my personal work and project collaborations!
             </p>
-            {this.state.projects.map(project => (
+            {this.state.projects.map((project) => (
               <Card
                 id={project.id}
                 key={project.id}
@@ -90,7 +84,6 @@ export class Parallax extends Component {
                 link={project.link}
                 gitHubLink={project.gitHubLink}
               />
-
             ))}
           </div>
         </div>
@@ -103,9 +96,7 @@ export class Parallax extends Component {
             />
           </div>
         </div>
-        <Footer/> 
-        
-        
+        <Footer />
       </div>
     );
   }
