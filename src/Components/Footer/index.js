@@ -7,7 +7,7 @@ function Footer() {
       <footer className="page-footer">
         <div className="container">
           <div className="row">
-            <div className="col s12 m6">
+            <div className="col s12 m12">
               <h4>Got a project idea?</h4>
               <p>
                 I help brands turn big ideas into beautiful digital products and
@@ -42,12 +42,12 @@ function Footer() {
    
                         
             </div>
-          <Form />
+          {/* <Form /> */}
           </div>
         </div>
         <div className="footer-copyright black-text">
           <div className="container">
-            <h6 className="footerText">© 2020 Copyright Daniel Molina-Power</h6>
+            <h6 className="footerText">© 2020 Copyright Daniel Molina-Power ALL RIGHTS RESERVED</h6>
           </div>
         </div>
       </footer>
