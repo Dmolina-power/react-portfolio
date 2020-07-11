@@ -6,7 +6,7 @@
         "content": "A group project that was built with HTML Bootstrap, CSS, JavaScript, Handlebars, Sequelize, JQuery,Express, Passport, MySql2. Created with Three other WebDev's. Click tab to view the site or to view Repo click below.",
         "gitHubLink": "https://github.com/Dmolina-power/Project2",
         "link": "https://project-2-mood-music.herokuapp.com/"
-    },
+    }, 
     {
         "id": 2,
         "name": "Burger Time!",
