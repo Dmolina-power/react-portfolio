@@ -21,7 +21,9 @@
 
 .grey-text.text-darken-3 {
   color: #424242 !important;
-  font-size: x-large;
+  font-size: large;
+  margin-top: 50px;
+  text-align: right;
 }
 
 .portfolio-header{
@@ -40,7 +42,7 @@
 .card-content {
   min-height: 250px;
 }
-/*add media query for different card content heights*/
+
 .card-content.white-text{
   background-color: white;
   text-align: center;
@@ -85,5 +87,9 @@ p{
   position: sticky;
 }
 
-
+.col.s12.m12{
+  padding-left: 0;
+  padding-right: 0;
+  
+}
 

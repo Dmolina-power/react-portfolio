@@ -32,8 +32,9 @@ export class Parallax extends Component {
           <div className="row container">
             <h2 className="header">Daniel Molina-Power</h2>
             <p className="header-title">Full Stack Web Developer</p>
-
-            <div className="col s6">
+            <div className="col">
+            
+              
               <img
                 src="https://i.postimg.cc/MKW6gC5z/53-A1247-A-3555-49-BA-981-C-15306-A54913-B.jpg"
                 alt=""
@@ -45,8 +46,7 @@ export class Parallax extends Component {
               >
                 View My Resume
               </a>
-            </div>
-            <div className="col s6">
+              </div>
               <p className="grey-text text-darken-3 lighten-3">
                 Originally raised in Miami by an Artistic family, not able to
                 escape the heat, driven to Arizona. Growing up sounded by the
@@ -56,7 +56,9 @@ export class Parallax extends Component {
                 University of Arizona. Currently, an expert in creating dynamic
                 user experiences via React.
               </p>
-            </div>
+              
+            
+            
           </div>
         </div>
 
