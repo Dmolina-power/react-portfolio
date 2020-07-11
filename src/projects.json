@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "Employee Directory React",
-        "image": "",
+        "image": "./images/Screen Shot 2020-07-11 at 11.52.19 AM.png",
         "content": "This is an employee directory with React. It breaks up your application's UI into components, manages component state, and responds to user events.",
         "gitHubLink": "https://github.com/Dmolina-power/Employee-directory-react.git",
         "link": "https://dmolina-power.github.io/Employee-directory-react/"
@@ -42,8 +42,8 @@
     {
         "id": 6,
         "name": "react Portfolio",
-        "image": "",
-        "content": "my React Portfolio!",
+        "image": "./images/Screen Shot 2020-07-11 at 11.51.13 AM.png",
+        "content": "MY React Portfolio!",
         "gitHubLink": "https://github.com/Dmolina-power/react-portfolio.git",
         "link": "https://dmolina-power.github.io/react-portfolio/"
     }
