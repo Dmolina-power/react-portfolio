@@ -1,62 +1,51 @@
 import React from "react";
 
-function Form() {
-  return (
-    <div>
-      <div className="row">
-        <h4>Contact Me</h4>
-        <div className="col s12 m6">
-          <div className="card-panel">
-            <div className="row">
-              <form className="col s12" method="post" action="contact.php">
-                <div className="row">
-                  <div className="input-field col s6">
-                    <input
-                      placeholder="Placeholder"
-                      id="first_name"
-                      type="text"
-                      className="validate"
-                    />
-                    <label htmlFor="first_name">First Name</label>
-                  </div>
-                  <div className="input-field col s6">
-                    <input id="last_name" type="text" className="validate" />
-                    <label htmlFor="last_name">Last Name</label>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="input-field col s12">
-                    <input id="email" type="email" className="validate" />
-                    <label htmlFor="email">Email</label>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="input-field col s12 md6">
-                    <i className="material-icons prefix">mode_edit</i>
-                    <textarea
-                      id="icon_prefix2"
-                      className="materialize-textarea"
-                    ></textarea>
-                    <label htmlFor="icon_prefix2">Message</label>
-                  </div>
-                </div>
-                <div className="row">
-                  <button
-                    className="btn waves-effect waves-light"
-                    type="submit"
-                    name="action"
-                  >
-                    Submit
-                    <i className="material-icons right">send</i>
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+export default class MyForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.submitForm = this.submitForm.bind(this);
+    this.state = {
+      status: ""
+    };
+  }
 
-export default Form;
+  render() {
+    const { status } = this.state;
+    return (
+      <form
+        onSubmit={this.submitForm}
+        action="https://formspree.io/xlepogpv"
+        method="POST"
+      >
+        <h4>I'd Love to Hear From You</h4>
+        <p>Fill out the form below, and I'll contact you as soon as possible.</p>
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <label>Message:</label>
+        <input type="text" name="message" />
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+      </form>
+    );
+  }
+
+  submitForm(ev) {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ status: "SUCCESS" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
+  }
+}
+    

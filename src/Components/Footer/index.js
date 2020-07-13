@@ -1,5 +1,5 @@
 import React from "react";
-import Form from "../Form/index"
+import MyForm from "../Form"
 
 function Footer() {
   return (
@@ -39,10 +39,10 @@ function Footer() {
                   </a>
                 </div>
               </div>
-   
+              <MyForm />
                         
             </div>
-          {/* <Form /> */}
+          
           </div>
         </div>
         <div className="footer-copyright black-text">
