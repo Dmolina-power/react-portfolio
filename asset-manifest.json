@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8ac37ed1.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.ee4563b6.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.ee4563b6.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.02818698.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.7eb97658.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.7eb97658.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
-    "static/js/2.af107df4.chunk.js": "/react-portfolio/static/js/2.af107df4.chunk.js",
-    "static/js/2.af107df4.chunk.js.map": "/react-portfolio/static/js/2.af107df4.chunk.js.map",
+    "static/js/2.f8711b39.chunk.js": "/react-portfolio/static/js/2.f8711b39.chunk.js",
+    "static/js/2.f8711b39.chunk.js.map": "/react-portfolio/static/js/2.f8711b39.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.fd5d4870bef2f793eaeebb32f167647f.js": "/react-portfolio/precache-manifest.fd5d4870bef2f793eaeebb32f167647f.js",
+    "precache-manifest.91c6d266a6c48ea0afaccd40e13a83c3.js": "/react-portfolio/precache-manifest.91c6d266a6c48ea0afaccd40e13a83c3.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.8ac37ed1.chunk.css.map": "/react-portfolio/static/css/main.8ac37ed1.chunk.css.map",
-    "static/js/2.af107df4.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.af107df4.chunk.js.LICENSE.txt"
+    "static/css/main.02818698.chunk.css.map": "/react-portfolio/static/css/main.02818698.chunk.css.map",
+    "static/js/2.f8711b39.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f8711b39.chunk.js.LICENSE.txt",
+    "static/media/MYSQL.png": "/react-portfolio/static/media/MYSQL.e0698928.png",
+    "static/media/React.png": "/react-portfolio/static/media/React.7caf256c.png",
+    "static/media/materialUi.png": "/react-portfolio/static/media/materialUi.787bdd94.png",
+    "static/media/mongoDB.png": "/react-portfolio/static/media/mongoDB.b38d5abb.png",
+    "static/media/nodeJS.png": "/react-portfolio/static/media/nodeJS.42ea153a.png",
+    "static/media/zurb foundation.png": "/react-portfolio/static/media/zurb foundation.9a4e75e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
-    "static/js/2.af107df4.chunk.js",
-    "static/css/main.8ac37ed1.chunk.css",
-    "static/js/main.ee4563b6.chunk.js"
+    "static/js/2.f8711b39.chunk.js",
+    "static/css/main.02818698.chunk.css",
+    "static/js/main.7eb97658.chunk.js"
   ]
 }
