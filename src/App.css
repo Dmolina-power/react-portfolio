@@ -87,9 +87,12 @@ p{
   position: sticky;
 }
 
-.col.s12.m12{
+.col.s12.m6{
   padding-left: 0;
   padding-right: 0;
   
 }
 
+.card{
+  margin-bottom: 0;
+}
