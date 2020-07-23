@@ -1,19 +1,19 @@
 [
     {
         "id": 1,
-        "name": "Send Moods",
-        "image": "./images/Screen Shot 2020-06-30 at 10.30.52 PM.png",
-        "content": "A group project that was built with HTML Bootstrap, CSS, JavaScript, Handlebars, Sequelize, JQuery,Express, Passport, MySql2. Created with Three other WebDev's. Click tab to view the site or to view Repo click below.",
+        "name": "Choogle",
+        "image": "./images/choogle.png",
+        "content": "A Full Stack Mern APP built with React, NodeJS, MongoDB, Express, Passport, bcrypt. Created with Three other WebDev's. Click tab to view the site or to view Repo click below.",
         "gitHubLink": "https://github.com/Dmolina-power/Project2",
         "link": "https://project-2-mood-music.herokuapp.com/"
     }, 
     {
         "id": 2,
-        "name": "Burger Time!",
-        "image": "./images/Screen Shot 2020-06-30 at 10.54.13 PM.png",
-        "content": "A simple burger logger with MySQL, Node, Express,Handlebars and a homemade ORM. user can add burgers of their own, devour burgers. Burger Time! highlights Database usuage and interactions. Click tab to view the site or to view Repo click below.",
-        "gitHubLink": "https://github.com/Dmolina-power/burger-time",
-        "link": "https://secure-stream-71691.herokuapp.com/" 
+        "name": "Send Moods",
+        "image": "./images/Screen Shot 2020-06-30 at 10.30.52 PM.png",
+        "content": "A group project that was built with HTML Bootstrap, CSS, JavaScript, Handlebars, Sequelize, JQuery,Express, Passport, MySql2. Created with Three other WebDev's. Click tab to view the site or to view Repo click below.",
+        "gitHubLink": "https://github.com/Dmolina-power/Project2",
+        "link": "https://project-2-mood-music.herokuapp.com/"
     },
     {
         "id": 3,
@@ -41,10 +41,11 @@
     },
     {
         "id": 6,
-        "name": "react Portfolio",
-        "image": "./images/Screen Shot 2020-07-11 at 11.51.13 AM.png",
-        "content": "MY React Portfolio!",
-        "gitHubLink": "https://github.com/Dmolina-power/react-portfolio.git",
-        "link": "https://dmolina-power.github.io/react-portfolio/"
+        "name": "Burger Time!",
+        "image": "./images/Screen Shot 2020-06-30 at 10.54.13 PM.png",
+        "content": "A simple burger logger with MySQL, Node, Express,Handlebars and a homemade ORM. user can add burgers of their own, devour burgers. Burger Time! highlights Database usuage and interactions. Click tab to view the site or to view Repo click below.",
+        "gitHubLink": "https://github.com/Dmolina-power/burger-time",
+        "link": "https://secure-stream-71691.herokuapp.com/"
     }
 ]
+

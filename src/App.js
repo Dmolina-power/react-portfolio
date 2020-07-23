@@ -29,7 +29,7 @@ export class Parallax extends Component {
           </div>
         </div>
         <div className="section white">
-          <div className="row container">
+          <div className="row">
             <h2 className="header">Daniel Molina-Power</h2>
             <p className="header-title">Full Stack Web Developer</p>
             <div className="col">
@@ -39,13 +39,13 @@ export class Parallax extends Component {
                 className="circle responsive-img z-depth-5"
               />
               <a
-                className="waves-effect waves-light btn  z-depth-5"
+                className="waves-effect waves-light btn  z-depth-3"
                 href="https://docs.google.com/document/d/1DldWUaF821mOasAmYpFahvvmb6H1u6i5GdBH1nFRROs/"
               >
                 View My Resume
               </a>
             </div>
-            <p className="grey-text text-darken-3 lighten-3">
+            <p className="grey-text text-darken-3 lighten-3 container">
             Originally raised in Miami by artists, not able to escape the heat, driven to Arizona. Growing up surrounded by the pop art in Miami I have developed a deep passion for style, however, I construct my art via code. To connect my passion of creating a more beautiful world via design I have completed the Full-Stack development course via the University of Arizona. I am confidently able to create and coordinate dynamic user experiences via front end and back languages like, HTML, CSS, JavaScript, Node, and React.js. Today’s trends go mobile first, so a cohesive and responsive design is always on my mind. I am known for collaborating, working hard and getting things done. Every project is unique and I will craft your site for the target audience.
             </p>
           </div>

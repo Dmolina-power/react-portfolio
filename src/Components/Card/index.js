@@ -17,12 +17,13 @@ function Card(props) {
           </div>
           <div className="card-content">
             <p>{props.content}</p>
-            <img
-              src="https://img.icons8.com/fluent/48/000000/github.png"
-              alt="github"
-              className="githubIcon"
-            />
-            <a href={props.gitHubLink}></a>
+            <a href={props.gitHubLink}>
+              <img
+                src="https://img.icons8.com/fluent/48/000000/github.png"
+                alt="github"
+                className="githubIcon"
+              />
+            </a>
           </div>
         </div>
       </div>
