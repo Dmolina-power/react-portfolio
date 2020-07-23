@@ -59,9 +59,9 @@ export class Parallax extends Component {
           </div>
         </div>
         <div className="section white">
-          <div className="row container">
+          <div className="row">
             
-            <div className="col">
+            <div className="col s12">
               <Frameworks />
             </div>
             

@@ -31,9 +31,12 @@ function FrameWorks() {
         <div className="col s12 m6">
           <div className="card z-depth-5">
             <div className="card-content center">
-              <span className="card-title center">Libraries:</span>
-              <img className="mini" src={react} />
-              <img className="mini" src={jquery} />
+              <span className="card-title center">Frameworks:</span>
+              <img className="mini" src={materialize} />
+              <img className="mini" src={bootstrap} />
+              <img className="mini" src={foundation} />
+              <img className="mini" src={nodeJS} />
+              <img className="mini" src={materialUi} />
             </div>
           </div>
         </div>
@@ -51,12 +54,9 @@ function FrameWorks() {
         <div className="col s12 m6">
           <div className="card z-depth-5">
             <div className="card-content center">
-              <span className="card-title center">Frameworks:</span>
-              <img className="mini" src={materialize} />
-              <img className="mini" src={bootstrap} />
-              <img className="mini" src={foundation} />
-              <img className="mini" src={nodeJS} />
-              <img className="mini" src={materialUi} />
+              <span className="card-title center">Libraries:</span>
+              <img className="mini" src={react} />
+              <img className="mini" src={jquery} />
             </div>
           </div>
         </div>
@@ -66,3 +66,5 @@ function FrameWorks() {
 }
 
 export default FrameWorks;
+
+
