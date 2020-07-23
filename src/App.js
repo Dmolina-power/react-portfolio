@@ -81,6 +81,7 @@ export class Parallax extends Component {
             <p className="portfolio-tag">
               Come view my personal work and project collaborations!
             </p>
+            <div className="col s12">
             {this.state.projects.map((project) => (
               <Card
                 id={project.id}
@@ -92,6 +93,7 @@ export class Parallax extends Component {
                 gitHubLink={project.gitHubLink}
               />
             ))}
+            </div>
           </div>
         </div>
 

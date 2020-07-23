@@ -40,7 +40,7 @@
 }
 
 .card-content {
-  min-height: 250px;
+  min-height: 240px;
 }
 
 .card-content.white-text{
@@ -96,3 +96,4 @@ p{
 .card{
   margin-bottom: 0;
 }
+
