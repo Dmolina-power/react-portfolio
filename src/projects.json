@@ -4,8 +4,8 @@
         "name": "Choogle",
         "image": "./images/choogle.png",
         "content": "A Full Stack Mern APP built with React, NodeJS, MongoDB, Express, Passport, bcrypt. Created with Three other WebDev's. Click tab to view the site or to view Repo click below.",
-        "gitHubLink": "https://github.com/Dmolina-power/Project2",
-        "link": "https://project-2-mood-music.herokuapp.com/"
+        "gitHubLink": "https://github.com/kmeersman624/Choogle",
+        "link": "https://chooglefoo.herokuapp.com/"
     }, 
     {
         "id": 2, 
