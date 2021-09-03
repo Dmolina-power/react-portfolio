@@ -1,22 +1,10 @@
-.parallax-container {
+.parallax-container{
   height: 500px;
 }
 
+
 .page-footer{
   background: white;
-}
-
-.header-title{
-  text-align: center;
-    font-weight: bold;
-    font-size: x-large;
-}
-
-.header{
-  font-size: 4rem;
-    line-height: 110%;
-    margin: 2.3733333333rem 0 1.424rem 0;
-    text-align: center;
 }
 
 .grey-text.text-darken-3 {
