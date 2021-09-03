@@ -4,7 +4,7 @@ import MyForm from "../Form"
 function Footer() {
   return (
     <div>
-      <footer className="page-footer">
+      <footer className="page-footer" id="contact">
         <div className="container">
           <div className="row">
             <div className="col s12 m12">
