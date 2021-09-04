@@ -65,6 +65,9 @@ p{
   text-align: center;
 }
 
+.portfolio-tag{
+  color: white!important;
+}
 
 
 .footerText{
@@ -85,3 +88,6 @@ p{
   margin-bottom: 0;
 }
 
+.circle.responsive-img.z-depth-5{
+  margin-top: 70px;
+}
