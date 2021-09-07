@@ -18,9 +18,9 @@ function FrameWorks() {
     <div>
       <div className="row">
         <div className="col s12 m6">
-          <div className="card z-depth-5">
+          <div className="card z-depth-5"data-aos="zoom-in-right">
             <div className="card-content center">
-              <span className="card-title center">Languages:</span>
+              <span className="card-title center" >Languages:</span>
               <img className="mini" src={html} />
               <img className="mini" src={css} />
               <img className="mini" src={javascript} />
@@ -29,7 +29,7 @@ function FrameWorks() {
         </div>
 
         <div className="col s12 m6">
-          <div className="card z-depth-5">
+          <div className="card z-depth-5" data-aos="zoom-in-left">
             <div className="card-content center">
               <span className="card-title center">Frameworks:</span>
               <img className="mini" src={materialize} />
@@ -42,7 +42,7 @@ function FrameWorks() {
         </div>
 
         <div className="col s12 m6">
-          <div className="card z-depth-5">
+          <div className="card z-depth-5" data-aos="zoom-in-right">
             <div className="card-content center">
               <span className="card-title center">Databases:</span>
               <img className="mini" src={MYSQL} />
@@ -52,7 +52,7 @@ function FrameWorks() {
         </div>
 
         <div className="col s12 m6">
-          <div className="card z-depth-5">
+          <div className="card z-depth-5" data-aos="zoom-in-left">
             <div className="card-content center">
               <span className="card-title center">Libraries:</span>
               <img className="mini" src={react} />

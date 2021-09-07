@@ -17,6 +17,7 @@ export class App extends Component {
       var elems = document.querySelectorAll(".parallax");
       M.Parallax.init(elems);
     });
+    
   }
 
   render() {
@@ -24,13 +25,13 @@ export class App extends Component {
       <div>
         <Navbar />
         <Landing />
-        <div className="section white" id="aboutMe">
+        <div className="section black" id="aboutMe">
             <div className="row">
               <div className="col s12 m4 center">
                 <img
                   src="https://i.postimg.cc/MKW6gC5z/53-A1247-A-3555-49-BA-981-C-15306-A54913-B.jpg"
                   alt=""
-                  className="circle responsive-img z-depth-5"
+                  className="circle responsive-img z-depth-5" data-aos="fade-up-right"
                 />
               </div>
               <div className="col s12 m8 center">
@@ -61,7 +62,7 @@ export class App extends Component {
             />
           </div>
         </div>
-        <div className="section white">
+        <div className="section black">
           <div className="row">
             <div className="col s12">
               <Frameworks />
@@ -76,9 +77,9 @@ export class App extends Component {
             />
           </div>
         </div>
-        <div className="section white" id="portfolio">
-          <div className="row container">
-            <h2 className="portfolio-header">Portfolio</h2>
+        <div className="section black white-text" id="portfolio">
+          <div className="row container white-text">
+            <h2 className="portfolio-header white-text">Portfolio</h2>
             <p className="portfolio-tag">
               Come view my personal work and project collaborations!
             </p>

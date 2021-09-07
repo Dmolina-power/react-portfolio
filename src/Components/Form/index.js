@@ -17,8 +17,8 @@ export default class MyForm extends React.Component {
         action="https://formspree.io/xlepogpv"
         method="POST"
       >
-        <h4>I'd Love to Hear From You</h4>
-        <p>Fill out the form below, and I'll contact you as soon as possible.</p>
+        <h4 className="white-text">I'd Love to Hear From You</h4>
+        <p className="white-text">Fill out the form below, and I'll contact you as soon as possible.</p>
         <label>Email:</label>
         <input type="email" name="email" />
         <label>Message:</label>

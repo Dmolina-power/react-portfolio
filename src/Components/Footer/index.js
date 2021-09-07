@@ -4,12 +4,12 @@ import MyForm from "../Form"
 function Footer() {
   return (
     <div>
-      <footer className="page-footer" id="contact">
+      <footer className="page-footer black white-text" id="contact">
         <div className="container">
           <div className="row">
-            <div className="col s12 m12">
-              <h4>Got a project idea?</h4>
-              <p>
+            <div className="col s12 m12 white-text">
+              <h4 className="white-text">Got a project idea?</h4>
+              <p className="white-text">
                 I help brands turn big ideas into beautiful digital products and
                 experiences.
               </p>
@@ -47,7 +47,7 @@ function Footer() {
         </div>
         <div className="footer-copyright black-text">
           <div className="container">
-            <h6 className="footerText">© 2020 Copyright Daniel Molina-Power ALL RIGHTS RESERVED</h6>
+            <h6 className="footerText white-text">© 2020 Copyright Daniel Molina-Power ALL RIGHTS RESERVED</h6>
           </div>
         </div>
       </footer>
