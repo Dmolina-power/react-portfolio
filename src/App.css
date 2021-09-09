@@ -8,7 +8,7 @@
 }
 
 .grey-text.text-darken-3 {
-  color: #424242 !important;
+  color: white !important;
   font-size: x-large;
   margin-top: 50px;
   text-align: right;
@@ -49,7 +49,8 @@
 }
 
 .material-icons{
-  background-color: red;
+  background-color: black;
+  color: white;
   background-position: center;
 }
 

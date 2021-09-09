@@ -13,16 +13,16 @@ function Footer() {
                 I help brands turn big ideas into beautiful digital products and
                 experiences.
               </p>
-              <div className="card lighten-1">
-                <div className="card-content black-text">
-                  <span className="card-title center"> Let's Connect!</span>
+              <div className="card black">
+                <div className="card-content white-text black">
+                  <span className="card-title center white-text"> Let's Connect!</span>
                   <div className="col s12 m6">
                     
-                    <h6>
+                    <h6 className="white-text">
                       <i className="material-icons">email</i>
                        <br></br>bigdpower@icloud.com 
                     </h6>
-                    <h6>
+                    <h6 className="white-text">
                       <i className="material-icons">map</i><br></br>San Tan Valley,
                       Arizona
                     </h6>

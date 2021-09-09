@@ -11,7 +11,7 @@ function Landing() {
   return (
    
       
-      <div className="background" data-aos="fade-in" data-aos-duration="1500" 
+      <div className="background"
       id="enter">
 
       
@@ -20,14 +20,13 @@ function Landing() {
         Hi there,
         </h1>
         <h2 className="landingText white-text"
-        data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">I'M</h2>
+        data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">I'm</h2>
         <h3 className="landingTitle red-text"data-aos="fade-left" data-aos-delay="1000">Daniel Molina-Power</h3>
-        <span class="landingScroll white-text" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1500">
+        </div> 
+       <span class="landingScroll white-text center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1000">
 				Scroll down <br />
 				<i class="material-icons" id="carrot">arrow_drop_down</i>
 			</span>
-        </div> 
-       
       </div>
     
   );
