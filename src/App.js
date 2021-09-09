@@ -6,6 +6,8 @@ import projects from "./projects.json";
 import Frameworks from "./Components/Frameworks";
 import Landing from "./Components/Landing";
 import Navbar from "./Components/Navbar";
+import Grid from '@material-ui/core/Grid';
+
 import "./App.css";
 
 export class App extends Component {
@@ -83,8 +85,21 @@ export class App extends Component {
             <p className="portfolio-tag">
               Come view my personal work and project collaborations!
             </p>
-            <div className="col s12">
+            </div> 
+            <Grid
+            container
+            direction="row"
+            justify="center"
+            alignItems="center"
+            spacing={10}
+            style={{paddingLeft: '25px', padding: '35px'}}
+          >
               {this.state.projects.map((project) => (
+                <Grid
+                key={project.id}
+                item 
+                 sm={12} md={6} lg={6} xl={4}
+                >
                 <Card
                   id={project.id}
                   key={project.id}
@@ -94,10 +109,12 @@ export class App extends Component {
                   link={project.link}
                   gitHubLink={project.gitHubLink}
                 />
+                </Grid>
               ))}
+              </Grid>
             </div>
-          </div>
-        </div>
+          
+       
 
         <div className="parallax-container">
           <div className="parallax 3">

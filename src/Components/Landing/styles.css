@@ -24,8 +24,16 @@ body {
 }
 
 .landingScroll {
-  width: 200px;
-  top: 50px;
+    position: absolute;
+    bottom: 60px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    padding-bottom: 40px;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
 }
 
 #carrot {
@@ -34,3 +42,12 @@ body {
   -webkit-animation: pulse 2s infinite;
   animation: pulse 2s infinite;
 }
+
+
+    .landingScroll #carrot.material-icons {
+      margin-top: 20px;
+      display: block;
+      -webkit-animation: pulse 2s infinite;
+              animation: pulse 2s infinite;
+       }
+  
