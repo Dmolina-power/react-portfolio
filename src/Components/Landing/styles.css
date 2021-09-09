@@ -1,26 +1,25 @@
 body {
-  background-color: black;
+    background-color: black;
 }
 
 #enter {
-  height: 100vh;
-  z-index: -1;
-  background-image: url("https://images.unsplash.com/photo-1526738549149-8e07eca6c147?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    height: 100vh;
+    z-index: -1;
+    background-image: url("https://images.unsplash.com/photo-1526738549149-8e07eca6c147?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-
 .header.center {
-  width: 100%;
-  position: absolute;
-  top: 40%;
-  left: 0;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
 }
 
 .landingScroll {
@@ -34,20 +33,23 @@ body {
     left: 0;
     right: 0;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 #carrot {
-  background-color: transparent;
-  color: red;
-  -webkit-animation: pulse 2s infinite;
-  animation: pulse 2s infinite;
+    background-color: transparent;
+    color: red;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
 }
 
+.landingScroll #carrot.material-icons {
+    margin-top: 20px;
+    display: block;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+}
 
-    .landingScroll #carrot.material-icons {
-      margin-top: 20px;
-      display: block;
-      -webkit-animation: pulse 2s infinite;
-              animation: pulse 2s infinite;
-       }
-  
+.landingTitle.red-text {
+    font-size:
+}

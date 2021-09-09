@@ -18,32 +18,62 @@ export class FrameWorks extends Component {
   componentDidMount() {
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".carousel");
-      M.Carousel.init(elems);
+      M.Carousel.init(elems, {
+        indicators: true,
+        duration: 150,
+      });
+      setTimeout(() => {
+        M.Carousel.getInstance(elems[0]).next();
+      }, 8000);
     });
   }
-  
+
   render() {
-  return (
-    <div>
-      <h1 className="carouselTitle center white-text">The tools of the Trade!</h1>
-      <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src={jquery}/></a>
-    <a class="carousel-item" href="#two!"><img src={react}/></a>
-    <a class="carousel-item" href="#three!"><img src={mongoDB}/></a>
-    <a class="carousel-item" href="#four!"><img src={MYSQL}/></a>
-    <a class="carousel-item" href="#five!"><img src={materialUi}/></a>
-    <a class="carousel-item" href="#four!"><img src={nodeJS}/></a>
-    <a class="carousel-item" href="#four!"><img src={foundation}/></a>
-    <a class="carousel-item" href="#four!"><img src={bootstrap}/></a>
-    <a class="carousel-item" href="#four!"><img src={materialize}/></a>
-    <a class="carousel-item" href="#four!"><img src={javascript}/></a>
-    <a class="carousel-item" href="#four!"><img src={css}/></a>
-    <a class="carousel-item" href="#four!"><img src={html}/></a>
-  </div>
-    </div>
-  );
-}
+    return (
+      <div>
+        <h1 className="carouselTitle center white-text">
+          The tools of the Trade!
+        </h1>{" "}
+        <div class="carousel">
+          <a class="carousel-item">
+            <img src={jquery} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={react} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={mongoDB} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={MYSQL} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={materialUi} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={nodeJS} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={foundation} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={bootstrap} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={materialize} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={javascript} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={css} />{" "}
+          </a>{" "}
+          <a class="carousel-item">
+            <img src={html} />{" "}
+          </a>{" "}
+        </div>{" "}
+      </div>
+    );
+  }
 }
 export default FrameWorks;
-
-
