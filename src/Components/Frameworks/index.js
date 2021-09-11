@@ -20,11 +20,25 @@ export class FrameWorks extends Component {
       var elems = document.querySelectorAll(".carousel");
       M.Carousel.init(elems, {
         indicators: true,
-        duration: 150,
+        duration: 300,
+        autoPlay: true
       });
-      setTimeout(() => {
-        M.Carousel.getInstance(elems[0]).next();
-      }, 8000);
+      let indicatorItems = document.querySelectorAll('.carousel .indicator-item'),
+      slideTime = 1000,
+      activeClass = "active";
+
+  setInterval(() => {
+    indicatorItems.forEach(el => {
+      if (el.classList.contains(activeClass)) {
+        M = el.nextElementSibling;
+        if (M == null) {
+          indicatorItems[0].click();
+        } else {
+          M.click()
+        }
+      }
+    });
+  }, slideTime);
     });
   }
 
@@ -33,45 +47,45 @@ export class FrameWorks extends Component {
       <div>
         <h1 className="carouselTitle center white-text">
           The tools of the Trade!
-        </h1>{" "}
+        </h1>
         <div class="carousel">
           <a class="carousel-item">
-            <img src={jquery} />{" "}
-          </a>{" "}
+            <img src={jquery} />
+          </a>
           <a class="carousel-item">
-            <img src={react} />{" "}
-          </a>{" "}
+            <img src={react} />
+          </a>
           <a class="carousel-item">
-            <img src={mongoDB} />{" "}
-          </a>{" "}
+            <img src={mongoDB} />
+          </a>
           <a class="carousel-item">
-            <img src={MYSQL} />{" "}
-          </a>{" "}
+            <img src={MYSQL} />
+          </a>
           <a class="carousel-item">
-            <img src={materialUi} />{" "}
-          </a>{" "}
+            <img src={materialUi} />
+          </a>
           <a class="carousel-item">
-            <img src={nodeJS} />{" "}
-          </a>{" "}
+            <img src={nodeJS} />
+          </a>
           <a class="carousel-item">
-            <img src={foundation} />{" "}
-          </a>{" "}
+            <img src={foundation} />
+          </a>
           <a class="carousel-item">
-            <img src={bootstrap} />{" "}
-          </a>{" "}
+            <img src={bootstrap} />
+          </a>
           <a class="carousel-item">
-            <img src={materialize} />{" "}
-          </a>{" "}
+            <img src={materialize} />
+          </a>
           <a class="carousel-item">
-            <img src={javascript} />{" "}
-          </a>{" "}
+            <img src={javascript} />
+          </a>
           <a class="carousel-item">
-            <img src={css} />{" "}
-          </a>{" "}
+            <img src={css} />
+          </a>
           <a class="carousel-item">
-            <img src={html} />{" "}
-          </a>{" "}
-        </div>{" "}
+            <img src={html} />
+          </a>
+        </div>
       </div>
     );
   }

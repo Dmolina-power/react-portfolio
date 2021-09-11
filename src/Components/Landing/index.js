@@ -15,26 +15,24 @@ function Landing() {
           data-aos="zoom-in"
           data-aos-duration="1000"
         >
-          Hi there,{" "}
-        </h1>{" "}
+          Hi there,
+        </h1>
         <h2
           className="landingText white-text"
           data-aos="fade-up"
           data-aos-easing="ease"
           data-aos-delay="600"
         >
-          {" "}
           I 'm
-        </h2>{" "}
+        </h2>
         <h3
           className="landingTitle red-text"
           data-aos="fade-left"
           data-aos-delay="1000"
         >
-          {" "}
-          Daniel Molina - Power{" "}
-        </h3>{" "}
-      </div>{" "}
+          Daniel Molina - Power
+        </h3>
+      </div>
       <span
         class="landingScroll white-text center"
         data-aos="fade-up"
@@ -43,10 +41,9 @@ function Landing() {
       >
         Scroll down <br />
         <i class="large material-icons" id="carrot">
-          {" "}
-          expand_more{" "}
-        </i>{" "}
-      </span>{" "}
+          expand_more
+        </i>
+      </span>
     </div>
   );
 }
