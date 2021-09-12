@@ -51,5 +51,16 @@ body {
 }
 
 .landingTitle.red-text {
-    font-size:
+    font-size: 52px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.landingHeader.white-text{
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.landingText.white-text{
+    font-family: 'Times New Roman', Times, serif;
 }
