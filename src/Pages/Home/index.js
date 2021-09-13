@@ -12,7 +12,7 @@ import "../../App.css";
 
 export class Home extends Component {
     state = {
-      projects,
+      projects, 
     };
     componentDidMount() {
       document.addEventListener("DOMContentLoaded", function () {
@@ -37,12 +37,13 @@ export class Home extends Component {
                   data-aos="fade-up-right"
                 />
               </div>
-              <div className="col s12 m8 center">
+              <div className="col s12 m8 center-align">
                 <h3 className="grey-text text-darken-3 lighten-3">
-                  Full Stack MERN Web Developer <br />| Coding Bootcamp Instructor
+                  Full Stack MERN Developer <br />| Coding Bootcamp Instructor
                 </h3>
-                <p>
-            
+                <p className="white-text">
+                Currently an Instructor for a coding bootcamp sharing my passion for coding and molding the minds of Junior MERN Stack Developers. When I leave the classroom I work on my own projects. Today’s trends go mobile first, so a cohesive and responsive design is always on my mind.I am known for collaborating, working hard and getting things done.Every project is unique and I will craft your App for the target audience.<br /><br />I’m actively pursuing a UX Design Certificate through  Grow with Google Courses. 
+
                 </p>
 
                 <a className="red-text" href="/about">Want to get to know me more!</a>
