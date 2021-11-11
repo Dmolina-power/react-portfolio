@@ -1,6 +1,6 @@
 import React from "react";
 
-function Nav() {
+const Nav = () => {
     return (
       <div class="navbar-fixed">
         <nav>
