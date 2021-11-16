@@ -3,10 +3,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles.css";
 
-function Landing() {
+const Landing = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <div className="background" id="enter">
       <div className="header center">
@@ -46,6 +47,6 @@ function Landing() {
       </span>
     </div>
   );
-}
+};
 
 export default Landing;

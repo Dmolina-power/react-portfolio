@@ -4,7 +4,7 @@ import Nav from "../../Components/Nav";
 //styles
 import "./styles.css";
 
-function About() {
+const About = () => {
   return (
     <>
       <Nav />
@@ -16,7 +16,10 @@ function About() {
         </div>
         <div className="row">
           <div class="col s12 m6">
-            <img src="https://i.postimg.cc/MKW6gC5z/53-A1247-A-3555-49-BA-981-C-15306-A54913-B.jpg" />
+          <img
+                  src="https://i.postimg.cc/MKW6gC5z/53-A1247-A-3555-49-BA-981-C-15306-A54913-B.jpg"
+                  alt=""
+                  className="circle responsive-img z-depth-5"/>
           </div>
           <div class="col s12 m6">
             <p className="white-text">
@@ -27,10 +30,7 @@ function About() {
               development course via the University of Arizona.I am confidently
               able to create and coordinate dynamic user experiences via front
               end and back languages like, HTML, CSS, JavaScript, Node, and
-              React.js.Today’ s trends go mobile first, so a cohesive and
-              responsive design is always on my mind.I am known for
-              collaborating, working hard and getting things done.Every project
-              is unique and I will craft your site for the target audience.
+              React.js.
             </p>
           </div>
         </div>
