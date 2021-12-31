@@ -42,8 +42,8 @@ export class FrameWorks extends Component {
         <div class="carousel">
           
             {frameworks.map((framework) => (
-            <a class="carousel-item">
-              <img 
+            <a href="link"class="carousel-item">
+              <img alt="images on carousel"
               id={framework.id} 
               key={framework.id} 
               src={framework.image}

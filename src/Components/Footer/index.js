@@ -1,9 +1,9 @@
 import React from "react";
 import MyForm from "../Form";
-import Resume from "../../images/Resume 2020.pdf";
+import Resume from "../../images/Resume 2021.pdf";
 
 
-function Footer() {
+const Footer = () => {
   return (
     <>
       <footer className="page-footer black white-text" id="contact">
@@ -18,8 +18,8 @@ function Footer() {
               <div className="card black">
                 <div className="card-content white-text black">
                   <span className="card-title center white-text">
-                    Let 's Connect!{" "}
-                  </span>{" "}
+                    Let 's Connect!
+                  </span>
                   <div className="col s12 m6">
                     <h6 className="white-text">
                       <i className="material-icons"> email </i>
@@ -34,13 +34,13 @@ function Footer() {
                               </a>
                   </div>
                   <a href="https://github.com/Dmolina-power">
-                    <img src="https://img.icons8.com/fluent/96/000000/github.png" />
+                    <img src="https://img.icons8.com/fluent/96/000000/github.png" alt="github link"/>
                   </a>
                   <a
                     className="LI-simple-link"
                     href="https://www.linkedin.com/in/daniel-molina-power-b7705b1a6?trk=profile-badge"
                   >
-                    <img src="https://img.icons8.com/cute-clipart/96/000000/linkedin.png" />
+                    <img src="https://img.icons8.com/cute-clipart/96/000000/linkedin.png" alt="linked in link"/>
                   </a>
                 </div>
               </div>
