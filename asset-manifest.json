@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.602407af.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.2e1532f1.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.2e1532f1.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
-    "static/css/2.eb43dee1.chunk.css": "/react-portfolio/static/css/2.eb43dee1.chunk.css",
-    "static/js/2.686edba0.chunk.js": "/react-portfolio/static/js/2.686edba0.chunk.js",
-    "static/js/2.686edba0.chunk.js.map": "/react-portfolio/static/js/2.686edba0.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "precache-manifest.f47e3fb4702dbe27f664237b93d245f7.js": "/react-portfolio/precache-manifest.f47e3fb4702dbe27f664237b93d245f7.js",
-    "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/2.eb43dee1.chunk.css.map": "/react-portfolio/static/css/2.eb43dee1.chunk.css.map",
-    "static/css/main.602407af.chunk.css.map": "/react-portfolio/static/css/main.602407af.chunk.css.map",
-    "static/js/2.686edba0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.686edba0.chunk.js.LICENSE.txt",
-    "static/media/Resume 2021.pdf": "/react-portfolio/static/media/Resume 2021.fb7285a3.pdf"
+    "main.css": "/static/css/main.602407af.chunk.css",
+    "main.js": "/static/js/main.b55b3b0f.chunk.js",
+    "main.js.map": "/static/js/main.b55b3b0f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e312f208.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
+    "static/css/2.eb43dee1.chunk.css": "/static/css/2.eb43dee1.chunk.css",
+    "static/js/2.686edba0.chunk.js": "/static/js/2.686edba0.chunk.js",
+    "static/js/2.686edba0.chunk.js.map": "/static/js/2.686edba0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bc8a17eaae10f57deee7a3dd8b9e39ea.js": "/precache-manifest.bc8a17eaae10f57deee7a3dd8b9e39ea.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.eb43dee1.chunk.css.map": "/static/css/2.eb43dee1.chunk.css.map",
+    "static/css/main.602407af.chunk.css.map": "/static/css/main.602407af.chunk.css.map",
+    "static/js/2.686edba0.chunk.js.LICENSE.txt": "/static/js/2.686edba0.chunk.js.LICENSE.txt",
+    "static/media/Resume 2021.pdf": "/static/media/Resume 2021.fb7285a3.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.213b1880.js",
+    "static/js/runtime-main.e312f208.js",
     "static/css/2.eb43dee1.chunk.css",
     "static/js/2.686edba0.chunk.js",
     "static/css/main.602407af.chunk.css",
-    "static/js/main.2e1532f1.chunk.js"
+    "static/js/main.b55b3b0f.chunk.js"
   ]
 }
