@@ -11,7 +11,7 @@ import Portfolio from "./Pages/Portfolio";
 
 const App = () => {
   return (
-    <Router basename="/react-portfolio">
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
