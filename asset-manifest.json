@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.c54a747a.chunk.css",
-    "main.js": "/static/js/main.e6317bc9.chunk.js",
-    "main.js.map": "/static/js/main.e6317bc9.chunk.js.map",
+    "main.css": "/static/css/main.602407af.chunk.css",
+    "main.js": "/static/js/main.75f4a23d.chunk.js",
+    "main.js.map": "/static/js/main.75f4a23d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.f8711b39.chunk.js": "/static/js/2.f8711b39.chunk.js",
-    "static/js/2.f8711b39.chunk.js.map": "/static/js/2.f8711b39.chunk.js.map",
+    "static/css/2.eb43dee1.chunk.css": "/static/css/2.eb43dee1.chunk.css",
+    "static/js/2.393af2cd.chunk.js": "/static/js/2.393af2cd.chunk.js",
+    "static/js/2.393af2cd.chunk.js.map": "/static/js/2.393af2cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d5673578248b16018d405f04f3d777d0.js": "/precache-manifest.d5673578248b16018d405f04f3d777d0.js",
+    "precache-manifest.4aedc0b596d1c7793f25bab98542d5dd.js": "/precache-manifest.4aedc0b596d1c7793f25bab98542d5dd.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c54a747a.chunk.css.map": "/static/css/main.c54a747a.chunk.css.map",
-    "static/js/2.f8711b39.chunk.js.LICENSE.txt": "/static/js/2.f8711b39.chunk.js.LICENSE.txt",
-    "static/media/MYSQL.png": "/static/media/MYSQL.e0698928.png",
-    "static/media/React.png": "/static/media/React.7caf256c.png",
-    "static/media/materialUi.png": "/static/media/materialUi.787bdd94.png",
-    "static/media/mongoDB.png": "/static/media/mongoDB.b38d5abb.png",
-    "static/media/nodeJS.png": "/static/media/nodeJS.42ea153a.png",
-    "static/media/zurb foundation.png": "/static/media/zurb foundation.9a4e75e7.png"
+    "static/css/2.eb43dee1.chunk.css.map": "/static/css/2.eb43dee1.chunk.css.map",
+    "static/css/main.602407af.chunk.css.map": "/static/css/main.602407af.chunk.css.map",
+    "static/js/2.393af2cd.chunk.js.LICENSE.txt": "/static/js/2.393af2cd.chunk.js.LICENSE.txt",
+    "static/media/Resume 2021.pdf": "/static/media/Resume 2021.fb7285a3.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
-    "static/js/2.f8711b39.chunk.js",
-    "static/css/main.c54a747a.chunk.css",
-    "static/js/main.e6317bc9.chunk.js"
+    "static/css/2.eb43dee1.chunk.css",
+    "static/js/2.393af2cd.chunk.js",
+    "static/css/main.602407af.chunk.css",
+    "static/js/main.75f4a23d.chunk.js"
   ]
 }
