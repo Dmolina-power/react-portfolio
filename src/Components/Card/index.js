@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card(props) {
+const Card = (props) => {
   return (
     <>
       <div className="card z-depth-4">
