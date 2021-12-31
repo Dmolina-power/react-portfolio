@@ -1,70 +1,59 @@
-import React from "react";
-import html from "../../images/html.png";
-import css from "../../images/css.png";
-import javascript from "../../images/javascript.png";
-import react from "../../images/React.png";
-import jquery from "../../images/Jquery.png";
-import materialize from "../../images/materialize.png";
-import bootstrap from "../../images/bootstrap.png";
-import foundation from "../../images/zurb foundation.png";
-import nodeJS from "../../images/nodeJS.png";
-import materialUi from "../../images/materialUi.png";
-import MYSQL from "../../images/MYSQL.png";
-import mongoDB from "../../images/mongoDB.png";
+import React, { Component } from "react";
+import M from "materialize-css";
+import frameworks from "../../frameworks.json";
 import "./styles.css";
 
-function FrameWorks() {
-  return (
-    <div>
-      <div className="row">
-        <div className="col s12 m6">
-          <div className="card z-depth-5">
-            <div className="card-content center">
-              <span className="card-title center">Languages:</span>
-              <img className="mini" src={html} />
-              <img className="mini" src={css} />
-              <img className="mini" src={javascript} />
-            </div>
-          </div>
-        </div>
+export class FrameWorks extends Component {
+  componentDidMount() {
+    document.addEventListener("DOMContentLoaded", function () {
+      var elems = document.querySelectorAll(".carousel");
+      M.Carousel.init(elems, {
+        indicators: true,
+        duration: 300,
+        autoPlay: true,
+      });
+      let indicatorItems = document.querySelectorAll(
+          ".carousel .indicator-item"
+        ),
+        slideTime = 1000,
+        activeClass = "active";
 
-        <div className="col s12 m6">
-          <div className="card z-depth-5">
-            <div className="card-content center">
-              <span className="card-title center">Frameworks:</span>
-              <img className="mini" src={materialize} />
-              <img className="mini" src={bootstrap} />
-              <img className="mini" src={foundation} />
-              <img className="mini" src={nodeJS} />
-              <img className="mini" src={materialUi} />
-            </div>
-          </div>
-        </div>
+      setInterval(() => {
+        indicatorItems.forEach((el) => {
+          if (el.classList.contains(activeClass)) {
+            M = el.nextElementSibling;
+            if (M == null) {
+              indicatorItems[0].click();
+            } else {
+              M.click();
+            }
+          }
+        });
+      }, slideTime);
+    });
+  }
 
-        <div className="col s12 m6">
-          <div className="card z-depth-5">
-            <div className="card-content center">
-              <span className="card-title center">Databases:</span>
-              <img className="mini" src={MYSQL} />
-              <img className="mini" src={mongoDB} />
-            </div>
-          </div>
-        </div>
-
-        <div className="col s12 m6">
-          <div className="card z-depth-5">
-            <div className="card-content center">
-              <span className="card-title center">Libraries:</span>
-              <img className="mini" src={react} />
-              <img className="mini" src={jquery} />
-            </div>
-          </div>
+  render() {
+    return (
+      <div>
+        <h1 className="carouselTitle center white-text">
+          The tools of the Trade!
+        </h1>
+        <div class="carousel">
+          
+            {frameworks.map((framework) => (
+            <a href="link"class="carousel-item">
+              <img alt="images on carousel"
+              id={framework.id} 
+              key={framework.id} 
+              src={framework.image}
+              /> 
+              </a>
+            ))}
+         
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
-
 export default FrameWorks;
-
-
