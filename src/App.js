@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //styles
 import "./App.css";
@@ -7,16 +7,18 @@ import "./App.css";
 //Pages
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Portfolio from "./Pages/Portfolio"
+import Portfolio from "./Pages/Portfolio";
 
 const App = () => {
   return (
-    <Router>
-      <Route exact path="/" component={Home} />
-      <Route exact path="#about" component={About} />
-      <Route exact path="#portfolio" component={Portfolio} />
+    <Router basename="/react-portfolio">
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/portfolio" component={Portfolio} />
+      </Switch>
     </Router>
   );
-}
+};
 
 export default App;
